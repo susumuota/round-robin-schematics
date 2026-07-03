@@ -1,0 +1,14 @@
+# KiCad history
+.history/
+
+# KiCad auto-backups
+*-backups/
+
+# KiCad lock files
+*.lck
+
+# KiCad project-local settings
+*.kicad_prl
+
+# Root project stub files (not part of the shared schematics)
+round-robin-schematics.kicad_*

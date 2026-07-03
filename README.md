@@ -10,6 +10,6 @@ The switches don't have an assigned footprint, so you'll need to assign your cho
 
 All diodes are set as 1N4148s and have the default footprint applied.
 
-Individual switch diodes are labled as `D`, diodes for the switch return path as `DS` and diodes for the interrupt pin as `DI`.
+Individual switch diodes are labelled as `D{driving_pin}-{driven_pin}` (matching the switch label), diodes for the switch return path as `DS{pin}` and diodes for the interrupt pin as `DI{pin}`.
 
 The switches are labelled as `RC{driving_pin}-{driven_pin}` to help with the kscan/keymap setup once you've got your PCB layout sorted.
